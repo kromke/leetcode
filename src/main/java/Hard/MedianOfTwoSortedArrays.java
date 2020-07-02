@@ -5,10 +5,10 @@ public class MedianOfTwoSortedArrays {
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
 
         int lengths = nums1.length + nums2.length;
-        int[] first = nums1[0] < nums2[0] ? nums1 : nums2;
+        int[] first = nums1[0] <= nums2[0] ? nums1 : nums2;
         int[] second = first == nums1 ? nums2 : nums1;
 
-        if (first[first.length - 1] == second[0]) {
+        if (first[first.length - 1] < second[0]) {
 
             if (lengths % 2 == 0) {
 
