@@ -12,7 +12,6 @@ public class MedianOfTwoSortedArrays {
 
             if (lengths % 2 == 0) {
 
-
                 if (lengths / 2 < first.length) {
                     return (first[lengths / 2] + first[lengths / 2 - 1]) / 2d;
                 } else {
@@ -29,6 +28,7 @@ public class MedianOfTwoSortedArrays {
                 }
             }
         }
+
         return 0d;
     }
 
