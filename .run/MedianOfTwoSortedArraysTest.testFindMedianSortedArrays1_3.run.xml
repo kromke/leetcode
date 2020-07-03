@@ -1,0 +1,20 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="MedianOfTwoSortedArraysTest.testFindMedianSortedArrays1_3" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <module name="leetCode" />
+    <useClassPathOnly />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="Hard.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="Hard" />
+    <option name="MAIN_CLASS_NAME" value="Hard.MedianOfTwoSortedArraysTest" />
+    <option name="METHOD_NAME" value="testFindMedianSortedArrays1_3" />
+    <option name="TEST_OBJECT" value="method" />
+    <option name="PARAMETERS" value="" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
